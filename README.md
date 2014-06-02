@@ -19,11 +19,11 @@ unchanged, while the scaffolding had the major surgery.
 The code in schema.hpp needs a hashtable package. I used "lhash" from
 OpenSSL, with a few patches so that it can be used standalone (i.e.,
 without the rest of OpenSSL).  The "getlhash" script fetches the files
-from the OpenSSL CVS repository and patches them.
+from the OpenSSL github repository and patches them.
 
 The rest of the code is distributed under the Apache 2.0 license. It
 is derived from a version of tagsoup which was obtained under the same
 license.
 
---Rich Salz <rich.salz@gmail.com>
-  October, 2012
+> Rich Salz <rich.salz@gmail.com>
+> October, 2012
