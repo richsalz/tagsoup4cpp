@@ -1,0 +1,12 @@
+cscope.out
+doxy.out
+doxy/
+doxygen.errs
+lhash.o
+parser.o
+schema.o
+tagsoup.hpp
+test.cpp
+tags
+test
+libtagsoup.a

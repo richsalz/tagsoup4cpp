@@ -1,0 +1,24 @@
+ALIASES               += "TODO=@todo"
+BUILTIN_STL_SUPPORT    = YES
+DOT_TRANSPARENT        = YES
+EXAMPLE_PATH           = .
+EXTRACT_ALL            = YES
+EXTRACT_ANON_NSPACES   = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+FILE_PATTERNS          = *.cpp *.hpp *.inl
+GENERATE_LATEX         = NO
+HTML_HEADER            =
+OUTPUT_DIRECTORY       = doxy
+PROJECT_NAME           = TagSoup
+PROJECT_NUMBER         = 1.0
+QUIET                  = YES
+RECURSIVE              = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+SEARCHENGINE           = NO
+SHOW_DIRECTORIES       = YES
+WARNINGS               = YES
+WARN_NO_PARAMDOC       = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
