@@ -1,10 +1,11 @@
 #! /bin/sh
-LHASH='http://cvs.openssl.org/getfile?f=openssl/crypto/lhash'
+
+LHASH='https://raw.githubusercontent.com/openssl/openssl/master/crypto/lhash'
 
 echo fetching file lhash.c
-wget -O lhash.c "${LHASH}/lhash.c&v=1.30" 2>/dev/null
+wget -q --no-check-certificate -O lhash.c "${LHASH}/lhash.c" #2>/dev/null
 echo fetching file lhash.h
-wget -O lhash.h "${LHASH}/lhash.h&v=1.23" 2>/dev/null
+wget -q --no-check-certificate -O lhash.h "${LHASH}/lhash.h" #2>/dev/null
 
 patch <patch.txt
 rm -f lhash.c.orig lhash.h.orig
